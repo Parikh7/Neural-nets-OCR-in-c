@@ -1,9 +1,6 @@
 # neural_net_handwriting
 
-A demo project to brush up my machine learning skills by writing an image recognition neural network from scratch in C.
-
-![input sample](img2_label_4.png)
-
+image recognition neural network from scratch in C.
 This uses a typical 3-layer multi-layer perceptron.
 Training time is about 3 seconds for 80% correct, and 30s for 96% correct
 against the competition [MNIST](http://yann.lecun.com/exdb/mnist/) set of
@@ -16,4 +13,3 @@ hand-written digits, which is pretty speedy for a simple C program.
 Note that I didn't include the test data files because they are pretty big.
 I used the CSV versions which you can download from https://pjreddie.com/projects/mnist-in-csv/.
 
-![cloc stats](Screenshot_2017-04-15_00-27-34.png)
